@@ -1,5 +1,5 @@
 .new-room-button {
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 1rem;
     margin-left: 0.5rem;
 }
@@ -7,8 +7,22 @@
 .room-nav {
     background-color: #d1d3d6;
     position: fixed;
+    text-align: left;
     width: 25%;
     top: 0px;
     left: 0px;
     height: 100%;
+    padding-left: 5px;
+}
+
+.new-room-button:hover {
+    cursor: pointer;
+}
+
+.room-name {
+    margin-top: 2rem;
+}
+
+.room-name:hover {
+    cursor: pointer;
 }
