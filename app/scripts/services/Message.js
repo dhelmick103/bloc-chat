@@ -10,6 +10,14 @@
             //console.log(data);
             return data;
         }
+        Message.createMessage = function(newMessage, roomID) {
+            messages.$add({
+              "roomID" : roomID,
+              "content" : newMessage,
+              "username" : "Timmy123",
+              "sentAt" : "1"
+            });
+        }
 
         return Message;
     }

@@ -11,6 +11,14 @@
             rooms.$add(room);
         };
 
+        Room.createMesssage = function(roomId, message) {
+           //add provided message to firebase, use roomIdd and userName and datetime stamp
+        };
+
+        Room.roomMessages = function (roomId) {
+           //return all message for provided roomId
+        };
+
         return Room;
     }
 
